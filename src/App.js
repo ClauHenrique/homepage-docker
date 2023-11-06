@@ -4,20 +4,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <main
+     className='App-main'
+     >
+      <p>Aplicação react rodando em meu container.</p>
+      <p>Container é atualizado pelo codigo fonte do repositorio sempre que a imagem é levantada</p>
+      <a
+        href='https://github.com/ClauHenrique'
+        target='blank'
+        className='App-link'
+      >meu github</a>
+     </main>
     </div>
   );
 }
